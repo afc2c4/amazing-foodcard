@@ -1,0 +1,51 @@
+.single-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 330px;
+    width: 250px;
+    background-image: url(bg.jpeg);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 2px 0px 30px 10px rgba(43, 43, 43, 0.9);
+    overflow: hidden;
+}
+
+.single-menu img {
+    max-width: 203px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    transition: .9s;
+}
+
+.single-menu:hover img {
+    border-radius: 40px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin: 8px 0 5px 5px;
+    width: 240px;
+}
+
+h2 {
+    font-size: 21px;
+    padding-bottom: 3px;
+    color: rgb(27, 255, 255);
+}
+
+span {
+    float: right;
+    font-style: italic;
+    color: rgb(27, 255, 255);
+}
+
+p {
+    color: #fff;
+}
